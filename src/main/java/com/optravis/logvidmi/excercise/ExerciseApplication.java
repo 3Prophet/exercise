@@ -22,7 +22,9 @@ public class ExerciseApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		LOG.info("Starting the application.");
+
 		SpringApplication.run(ExerciseApplication.class, args);
+
 		LOG.info("Application finished.");
 	}
 
